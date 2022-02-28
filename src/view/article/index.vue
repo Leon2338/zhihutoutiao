@@ -3,7 +3,6 @@
     <!-- 导航栏 -->
     <van-nav-bar
       class="page-nav-bar"
-      title="黑马头条"
     >
     <van-icon name="arrow-left" slot="left" @click="onCancel"/>
     </van-nav-bar>
