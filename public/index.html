@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title><%= htmlWebpackPlugin.options.title %></title>
+    <meta name="referer" content="no-referer"> 
+    <script>
+      window.__VUE_DEVTOOLS_HOST__ = 'http://localhost:8080' // default: localhost
+      window.__VUE_DEVTOOLS_PORT__ = '8098' // default: 8098
+    </script>
+    <script src="http://localhost:8080/#/:8098"></script>
   </head>
   <body>
     <noscript>
